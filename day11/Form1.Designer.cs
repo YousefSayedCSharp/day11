@@ -34,6 +34,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.txtNames = new System.Windows.Forms.RichTextBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.btnGit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtName
@@ -91,11 +92,21 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // btnGit
+            // 
+            this.btnGit.Location = new System.Drawing.Point(0, 0);
+            this.btnGit.Name = "btnGit";
+            this.btnGit.Size = new System.Drawing.Size(75, 23);
+            this.btnGit.TabIndex = 6;
+            this.btnGit.Text = "Git Test";
+            this.btnGit.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGit);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.txtNames);
             this.Controls.Add(this.button3);
@@ -117,6 +128,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.RichTextBox txtNames;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnGit;
     }
 }
 
